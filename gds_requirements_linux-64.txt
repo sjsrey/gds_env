@@ -228,7 +228,7 @@ https://conda.anaconda.org/conda-forge/linux-64/pyproj-1.9.5.1-py27_0.tar.bz2
 
 https://conda.anaconda.org/conda-forge/linux-64/pyqt-4.11.4-py27_0.tar.bz2
 
-https://conda.anaconda.org/conda-forge/linux-64/pysal-1.11.2-py27_0.tar.bz2
+https://conda.anaconda.org/conda-forge/linux-64/pysal-1.12.0-py27_0.tar.bz2
 
 https://conda.anaconda.org/conda-forge/linux-64/pyshp-1.2.3-py27_0.tar.bz2
 
