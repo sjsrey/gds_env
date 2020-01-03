@@ -47,6 +47,11 @@ RUN add-apt-repository -y ppa:ubuntugis/ubuntugis-experimental \
     tk-dev \
     unixodbc-dev
 
+#--- Jekyll ---#
+
+RUN apt-get install -y ruby-full build-essential zlib1g-dev
+RUN gem install jekyll bundler 
+RUN gem install jekyll-scholar
 
 # Re-attach conda to path
 ENV PATH="/opt/conda/bin:${PATH}"
@@ -65,6 +70,8 @@ WORKDIR $HOME
 
 USER $NB_UID
 RUN npm install -g decktape 
+
+#--- jekyll-scholar ---#
 
 # Switch back to user to avoid accidental container runs as root
 USER $NB_UID
